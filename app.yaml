@@ -1,0 +1,11 @@
+runtime: python39
+
+env_variables:
+  NUMBER_TYPE: "even"
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: /.*
+  script: auto
